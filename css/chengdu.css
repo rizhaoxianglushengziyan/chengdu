@@ -1,0 +1,121 @@
+﻿body{
+	font-family: "微软雅黑";
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: none;
+    box-shadow: 0 2px 8px rgba(50,50,50,0.25);
+
+}
+.navbar-default  .navbar-brand{
+	font-size: 28px;
+    color: #0a9d9e;
+}
+.navbar-default .navbar-toggle:hover{
+	background-color: #0a9d9e;
+}
+/*home*/
+#home{
+	background: url(../images/home-bg.jpg);
+	background-size:cover;
+	text-align: center;
+	color:#fff;
+	margin-top:50px;
+}
+.zhezhao{
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	padding: 30px 0;
+}
+#home p{
+	line-height: 35px;
+	margin-bottom: 30px;
+}
+/*bbs*/
+#bbs{
+	text-align: center;
+	padding: 50px 0;
+}
+#bbs h2{
+	padding-bottom: 50px;
+		}
+#bbs img{
+	margin:0 auto;
+	width: 50%;
+}
+
+.c-icon{
+	width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0a9d9e;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 20px;
+}
+#banner2,#banner1{
+	padding: 80px 0;
+}
+/*模特库*/
+#model{
+	text-align: center;
+	padding: 50px 0;
+}
+#model h2{
+	padding-bottom: 30px;
+}
+#model img{
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+}
+#model .btn{
+	margin:20px 0;
+	
+}
+/*四大美女*/
+#fourgirl{
+	padding-bottom: 50px;
+}
+#fourgirl h2{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.linkbox{
+	border: 1px solid #e4e4e4;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: block;
+    padding: 4em 2em;
+    text-align: center;
+    transition: 0.15s ease-out;
+}
+.linkbox:hover {
+    border: 1px solid #d0d0d0;
+    box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.3);
+    margin-top: -10px;
+}
+#contact{
+	/*如果是固定高  手机模式不兼容  高度不能自适应*/
+	/*height: 500px;*/ 
+	background: url(../images/contact-bg.png) no-repeat;
+	color: #fff;
+}
+#contact .zhezhao{
+    padding-top: 80px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control{	
+	margin-bottom:20px ;
+}
+
+
+
+.footer{
+	text-align: center;
+	padding: 20px;
+}
